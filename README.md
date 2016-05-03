@@ -4,6 +4,8 @@
 
 ## Usage
 
+### struct literal
+
 ```go
 package main
 
@@ -37,6 +39,8 @@ func main() {
 }
 ```
 
+### NewWrapper
+
 ```go
 package main
 
@@ -69,6 +73,8 @@ func main() {
 	fmt.Println(s)
 }
 ```
+
+### NewWrapperWith
 
 ```go
 package main
