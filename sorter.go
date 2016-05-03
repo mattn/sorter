@@ -1,9 +1,5 @@
 package sorter
 
-import (
-	"sort"
-)
-
 type Wrapper struct {
 	LenFunc  func() int
 	LessFunc func(i, j int) bool
